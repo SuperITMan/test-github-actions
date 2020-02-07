@@ -9,7 +9,7 @@ readonly currentDir=$(
 readonly SCRIPTS_LOCATION=$currentDir
 readonly rootDir="${currentDir}"
 
-echo "this is a test" > $rootDir/test.md
+echo "this is a test again" > $rootDir/test.md
 
 git add $rootDir/.
 git commit -m "this is a test"
